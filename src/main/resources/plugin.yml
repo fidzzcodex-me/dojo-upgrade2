@@ -1,0 +1,19 @@
+name: Dojo
+version: 1.0.0
+main: com.dojo.plugin.DojoPlugin
+api-version: '1.20'
+author: fifxz
+description: Dojo-themed duel arena and belt rank system
+
+commands:
+  dojo:
+    description: Main Dojo command
+    usage: /dojo <duel|accept|deny|rank|arena>
+
+permissions:
+  dojo.admin:
+    description: Access to admin commands (arena setup, rank management)
+    default: op
+  dojo.use:
+    description: Access to basic duel commands
+    default: true
