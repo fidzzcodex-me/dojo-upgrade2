@@ -1,0 +1,7 @@
+# Dojo Plugin Configuration
+
+# Guardian (Kurayami) spawn settings
+guardian-spawn-radius: 150.0
+guardian-min-delay-seconds: 120
+guardian-max-delay-seconds: 300
+guardian-max-alive: 5
